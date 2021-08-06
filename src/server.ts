@@ -5,6 +5,6 @@ import './database';
 
 dotenv.config();
 
-app.listen(3333, ()=>{
+app.listen(8080, ()=>{
     console.log('Running Server');
 });
