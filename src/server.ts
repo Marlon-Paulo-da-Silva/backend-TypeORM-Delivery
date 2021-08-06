@@ -1,3 +1,5 @@
+require('dotenv').config({path: 'file.env'});
+
 import app from './app';
 import 'reflect-metadata';
 import './database';
