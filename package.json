@@ -1,6 +1,10 @@
 {
    "name": "rucridelivery",
    "version": "0.0.1",
+   "engines": {
+      "node": "16.x",
+      "npm": "7.x"
+    },
    "description": "Awesome project developed with TypeORM.",
    "devDependencies": {
       "@types/node": "^8.0.29",
@@ -17,7 +21,7 @@
       "uuidv4": "^6.0.7"
    },
    "scripts": {
-      "start": "node build/server.ts",
+      "start": "node build/server.js",
       "local-start": "ts-node src/server.ts",
       "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js",
       "build": "tsc",
